@@ -1,0 +1,3250 @@
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 100%;
+    font-size: 100%;
+    border-radius: 0;
+}
+
+
+/* Larger than mobile */
+@media (min-width: 300px) {
+
+header{
+    
+    width: 100%;
+    position: relative;   
+}
+
+main{
+    margin-top: 170px;
+    
+}
+    
+.cover_image{
+    width: 400px;
+    height: auto;
+    position: absolute;
+    z-index: -1;
+}
+
+.bull{
+    width: 70px;
+    height: auto;
+    position: absolute;
+    left: 270px;
+    top: 80px;
+    
+}
+ 
+.bull:hover{
+    -webkit-transform:scale(1.3);
+    -ms-transfrom:scale(1.3);
+    transform: scale(1.3);
+}
+
+
+.sheep{
+    width: 60px;
+    height: auto;
+    position: absolute;
+    left: 10px;
+    top: 140px;
+    
+}
+
+.sheep:hover{
+    -webkit-transform:scale(1.3);
+    -ms-transfrom:scale(1.3);
+    transform: scale(1.3);
+}
+
+.duck{
+    width: 50px;
+    height: auto;
+    position: absolute;
+    left: 355px;
+    top: 180px;
+    
+}
+
+.duck:hover{
+    -webkit-transform:scale(1.3);
+    -ms-transfrom:scale(1.3);
+    transform: scale(1.3);
+}
+
+.pig{
+    width: 60px;
+    height: auto;
+    position: absolute;
+    left: 90px;
+    top: 120px;
+    
+}
+
+.pig:hover{
+    -webkit-transform:scale(1.3);
+    -ms-transfrom:scale(1.3);
+    transform: scale(1.3);
+}
+
+.peacock{
+    width: 70px;
+    height: auto;
+    position: absolute;
+    left: 290px;
+    top: 150px;
+    
+}
+
+.peacock:hover{
+    -webkit-transform:scale(1.3);
+    -ms-transfrom:scale(1.3);
+    transform: scale(1.3);
+}
+
+
+.chicken{
+    width: 40px;
+    height: auto;
+    position: absolute;
+    left: 120px;
+    top: 70px;
+    
+}
+
+.chicken:hover{
+    -webkit-transform:scale(1.3);
+    -ms-transfrom:scale(1.3);
+    transform: scale(1.3);
+}
+
+.dog{
+    width: 50px;
+    height: auto;
+    position: absolute;
+    left: 70px;
+    top: 180px;
+    
+}
+
+.dog:hover{
+    -webkit-transform:scale(1.3);
+    -ms-transfrom:scale(1.3);
+    transform: scale(1.3);
+}
+
+.rabbit{
+    width: 60px;
+    height: auto;
+    position: absolute;
+    left: 220px;
+    top: 100px;
+    
+}
+
+.rabbit:hover{
+    -webkit-transform:scale(1.3);
+    -ms-transfrom:scale(1.3);
+    transform: scale(1.3);
+}
+
+.cat{
+    width: 60px;
+    height: auto;
+    position: absolute;
+    left: 130px;
+    top: 170px;
+    
+}
+
+.cat:hover{
+    -webkit-transform:scale(1.3);
+    -ms-transfrom:scale(1.3);
+    transform: scale(1.3);
+}
+
+.llama{
+    width: 80px;
+    height: auto;
+    position: absolute;
+    left: 180px;
+    top: 150px;
+    
+}
+
+.llama:hover{
+    -webkit-transform:scale(1.3);
+    -ms-transfrom:scale(1.3);
+    transform: scale(1.3);
+}
+
+
+.goat{
+    width: 70px;
+    height: auto;
+    position: absolute;
+    left: 150px;
+    top: 100px;
+    
+}
+
+.goat:hover{
+    -webkit-transform:scale(1.3);
+    -ms-transfrom:scale(1.3);
+    transform: scale(1.3);
+}
+
+.horse{
+    width: 60px;
+    height: auto;
+    position: absolute;
+    left: 230px;
+    top: 160px;
+    
+}
+
+.horse:hover{
+    -webkit-transform:scale(1.3);
+    -ms-transfrom:scale(1.3);
+    transform: scale(1.3);
+}
+
+.top {
+    width: 30px;
+    height: auto;
+    left: 90%;
+    top: 67%;
+    position: fixed;
+}
+
+
+h1{
+    font-family: 'Shadows Into Light', cursive;
+    color: #444444;
+    font-size: 45px;
+    padding-top: 20px;
+    padding-left: 130px;
+}
+
+h2{
+    font-family: 'Gudea', sans-serif;    color: #444444;
+    font-size: 30px;
+    padding-top: 10px;
+}
+
+main{
+    
+    max-height: 70vh;
+    width:100%
+        
+        
+}
+
+h3{
+    font-family: 'Vidaloka', serif;
+    color: #444444;
+    font-size: 35px;
+    padding-top: 20px;
+}
+
+p{
+    font-family: 'Gudea', sans-serif;
+    color: #444444;
+    font-size: 10px;
+    padding-top: 0px;
+    text-align: left;
+    padding-right: 20px;
+    line-height:12px;
+    
+    
+}
+
+.flex{ 
+    display: flex;
+    
+
+}
+
+.img{
+    width: 100%;
+    height: 70vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+}
+
+/*-------------sheep--------------*/
+#sheep_flex{ 
+    display: flex;
+    
+
+}
+
+.sheep_image{
+    width: 70%;
+    height: auto;
+    padding-left: 30px;
+    
+}
+
+.sheep_flex_item{
+    
+    width: calc(100%/2);
+    height: 30vh;
+    background-color: #f088b6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    
+}
+
+/*-------------dog--------------*/
+
+#dog_flex{ 
+    display: flex;
+    
+
+}
+
+.dog_image{
+    width: 70%;
+    height: auto;
+    padding-left: 30px;
+    
+}
+
+.dog_flex_item{
+    
+    width: calc(100%/2);
+    height: 30vh;
+    background-color: #d0a3cf;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    
+}
+
+/*-------------pig--------------*/
+
+#pig_flex{ 
+    display: flex;
+    
+
+}
+
+.pig_image{
+    width: 70%;
+    height: auto;
+    padding-left: 30px;
+    
+}
+
+.pig_flex_item{
+    
+    width: calc(100%/2);
+    height: 30vh;
+    background-color: #7dcedb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    
+}
+
+/*-------------Cat--------------*/
+
+#cat_flex{ 
+    display: flex;
+    
+
+}
+
+.cat_image{
+    width: 70%;
+    height: auto;
+    padding-left: 30px;
+    
+}
+
+.cat_flex_item{
+    
+    width: calc(100%/2);
+    height: 30vh;
+    background-color: #92d297;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    
+}
+
+/*-------------goat--------------*/
+
+#goat_flex{ 
+    display: flex;
+    
+
+}
+
+.goat_image{
+    width: 70%;
+    height: auto;
+    padding-left: 30px;
+    
+}
+
+.goat_flex_item{
+    
+    width: calc(100%/2);
+    height: 30vh;
+    background-color: #7a97ba;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    
+}
+
+/*-------------chicken--------------*/
+
+#chicken_flex{ 
+    display: flex;
+    
+
+}
+
+.chicken_image{
+    width: 70%;
+    height: auto;
+    padding-left: 30px;
+    
+}
+
+.chicken_flex_item{
+    
+    width: calc(100%/2);
+    height: 30vh;
+    background-color: #c5e473;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    
+}
+
+/*-------------llama--------------*/
+
+#llama_flex{ 
+    display: flex;
+    
+
+}
+
+.llama_image{
+    width: 70%;
+    height: auto;
+    padding-left: 30px;
+    
+}
+
+.llama_flex_item{
+    
+    width: calc(100%/2);
+    height: 30vh;
+    background-color: #78a093;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    
+}
+
+/*-------------rabbit--------------*/
+
+#rabbit_flex{ 
+    display: flex;
+    
+
+}
+
+.rabbit_image{
+    width: 70%;
+    height: auto;
+    padding-left: 30px;
+    
+}
+
+.rabbit_flex_item{
+    
+    width: calc(100%/2);
+    height: 30vh;
+    background-color: #f2b175;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    
+}
+
+/*-------------bull--------------*/
+
+#bull_flex{ 
+    display: flex;
+    
+
+}
+
+.bull_image{
+    width: 70%;
+    height: auto;
+    padding-left: 30px;
+    
+}
+
+.bull_flex_item{
+    
+    width: calc(100%/2);
+    height: 30vh;
+    background-color: #9ad9e0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    
+}
+
+/*-------------horse--------------*/
+
+#horse_flex{ 
+    display: flex;
+    
+
+}
+
+.horse_image{
+    width: 70%;
+    height: auto;
+    padding-left: 30px;
+    
+}
+
+.horse_flex_item{
+    
+    width: calc(100%/2);
+    height: 30vh;
+    background-color: #f18787;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    
+}
+
+/*-------------peacock--------------*/
+
+#peacock_flex{ 
+    display: flex;
+    
+
+}
+
+.peacock_image{
+    width: 70%;
+    height: auto;
+    padding-left: 30px;
+    
+}
+
+.peacock_flex_item{
+    
+    width: calc(100%/2);
+    height: 30vh;
+    background-color: #efef79;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    
+}
+
+/*-------------duck--------------*/
+
+#duck_flex{ 
+    display: flex;
+    
+
+}
+
+.duck_image{
+    width: 70%;
+    height: auto;
+    padding-left: 30px;
+    
+}
+
+.duck_flex_item{
+    
+    width: calc(100%/2);
+    height: 30vh;
+    background-color: #d0a3cf;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    
+}
+
+    #download{
+        
+        
+        
+        padding-bottom: 20px;
+        padding-top: 10px;
+        width: 100%;
+        height: auto;
+        
+    }
+    
+    #download p{
+    font-family: 'Shadows Into Light', cursive;
+    color: #444444;
+    font-size: 25px;
+    padding-top: 10px;
+        padding-left: 50px;
+    padding-bottom: 20px;    
+    line-height: 20px; 
+}
+   
+    
+    .download_buttons{
+        width: 180px;
+        height: auto;
+        display: inline;
+        padding-left: 10px;
+        
+       
+    }
+
+.six{
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
+.seven{
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+}
+
+
+/* Larger than phablet */
+@media (min-width: 550px) {
+
+    header{
+    
+    width: 100%;
+    position: relative; 
+}
+
+main{
+    margin-top: 256px;  
+}
+    
+.cover_image{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    z-index: -1;
+}
+
+.bull{
+    width: 80px;
+    height: auto;
+    position: absolute;
+    left: 430px;
+    top: 140px;
+    
+}
+ 
+.bull:hover{
+    -webkit-transform:scale(1.3);
+    -ms-transfrom:scale(1.3);
+    transform: scale(1.3);
+}
+
+
+.sheep{
+    width: 80px;
+    height: auto;
+    position: absolute;
+    left: 10px;
+    top: 210px;
+    
+}
+
+.sheep:hover{
+    -webkit-transform:scale(1.3);
+    -ms-transfrom:scale(1.3);
+    transform: scale(1.3);
+}
+
+.duck{
+    width: 70px;
+    height: auto;
+    position: absolute;
+    left: 520px;
+    top: 260px;
+    
+}
+
+.duck:hover{
+    -webkit-transform:scale(1.3);
+    -ms-transfrom:scale(1.3);
+    transform: scale(1.3);
+}
+
+.pig{
+    width: 80px;
+    height: auto;
+    position: absolute;
+    left: 130px;
+    top: 170px;
+    
+}
+
+.pig:hover{
+    -webkit-transform:scale(1.3);
+    -ms-transfrom:scale(1.3);
+    transform: scale(1.3);
+}
+
+.peacock{
+    width: 80px;
+    height: auto;
+    position: absolute;
+    left: 450px;
+    top: 225px;
+    
+}
+
+.peacock:hover{
+    -webkit-transform:scale(1.3);
+    -ms-transfrom:scale(1.3);
+    transform: scale(1.3);
+}
+
+
+.chicken{
+    width: 70px;
+    height: auto;
+    position: absolute;
+    left: 180px;
+    top: 110px;
+    
+}
+
+.chicken:hover{
+    -webkit-transform:scale(1.3);
+    -ms-transfrom:scale(1.3);
+    transform: scale(1.3);
+}
+
+.dog{
+    width: 80px;
+    height: auto;
+    position: absolute;
+    left: 100px;
+    top: 260px;
+    
+}
+
+.dog:hover{
+    -webkit-transform:scale(1.3);
+    -ms-transfrom:scale(1.3);
+    transform: scale(1.3);
+}
+
+.rabbit{
+    width: 80px;
+    height: auto;
+    position: absolute;
+    left: 340px;
+    top: 140px;
+    
+}
+
+.rabbit:hover{
+    -webkit-transform:scale(1.3);
+    -ms-transfrom:scale(1.3);
+    transform: scale(1.3);
+}
+
+.cat{
+    width: 80px;
+    height: auto;
+    position: absolute;
+    left: 210px;
+    top: 250px;
+    
+}
+
+.cat:hover{
+    -webkit-transform:scale(1.3);
+    -ms-transfrom:scale(1.3);
+    transform: scale(1.3);
+}
+
+.llama{
+    width: 100px;
+    height: auto;
+    position: absolute;
+    left: 280px;
+    top: 230px;
+    
+}
+
+.llama:hover{
+    -webkit-transform:scale(1.3);
+    -ms-transfrom:scale(1.3);
+    transform: scale(1.3);
+}
+
+
+.goat{
+    width: 90px;
+    height: auto;
+    position: absolute;
+    left: 240px;
+    top: 150px;
+    
+}
+
+.goat:hover{
+    -webkit-transform:scale(1.3);
+    -ms-transfrom:scale(1.3);
+    transform: scale(1.3);
+}
+
+.horse{
+    width: 90px;
+    height: auto;
+    position: absolute;
+    left: 370px;
+    top: 240px;
+    
+}
+
+.horse:hover{
+    -webkit-transform:scale(1.3);
+    -ms-transfrom:scale(1.3);
+    transform: scale(1.3);
+}
+
+.top {
+    width: 40px;
+    height: auto;
+    left: 90%;
+    top: 81%;
+    position: fixed;
+}
+
+
+h1{
+    font-family: 'Shadows Into Light', cursive;
+    color: #444444;
+    font-size: 65px;
+    padding-top: 30px;
+    padding-left: 190px;
+}
+
+h2{
+    font-family: 'Gudea', sans-serif;    color: #444444;
+    font-size: 30px;
+    padding-top: 10px;
+}
+
+main{
+    
+    max-height: 70vh;
+    width:100%
+        
+        
+}
+
+h3{
+    font-family: 'Vidaloka', serif;
+    color: #444444;
+    font-size: 35px;
+    padding-top: 20px;
+}
+
+p{
+    font-family: 'Gudea', sans-serif;
+    color: #444444;
+    font-size: 15px;
+    padding-top: px;
+    text-align: left;
+    padding-right: 20px;
+    line-height: 20px;
+    
+    
+}
+
+.flex{ 
+    display: flex;
+    
+
+}
+
+.img{
+    width: 100%;
+    height: 70vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+}
+
+/*-------------sheep--------------*/
+#sheep_flex{ 
+    display: flex;
+    
+
+}
+
+.sheep_image{
+    width: 70%;
+    height: auto;
+    padding-left: 50px;
+    
+}
+
+.sheep_flex_item{
+    
+    width: calc(100%/2);
+    height: 50vh;
+    background-color: #f088b6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    
+}
+
+/*-------------dog--------------*/
+
+#dog_flex{ 
+    display: flex;
+    
+
+}
+
+.dog_image{
+    width: 70%;
+    height: auto;
+    padding-left: 50px;
+    
+}
+
+.dog_flex_item{
+    
+    width: calc(100%/2);
+    height: 50vh;
+    background-color: #d0a3cf;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    
+}
+
+/*-------------pig--------------*/
+
+#pig_flex{ 
+    display: flex;
+    
+
+}
+
+.pig_image{
+    width: 70%;
+    height: auto;
+    padding-left: 50px;
+    
+}
+
+.pig_flex_item{
+    
+    width: calc(100%/2);
+    height: 50vh;
+    background-color: #7dcedb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    
+}
+
+/*-------------Cat--------------*/
+
+#cat_flex{ 
+    display: flex;
+    
+
+}
+
+.cat_image{
+    width: 70%;
+    height: auto;
+    padding-left: 50px;
+    
+}
+
+.cat_flex_item{
+    
+    width: calc(100%/2);
+    height: 50vh;
+    background-color: #92d297;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    
+}
+
+/*-------------goat--------------*/
+
+#goat_flex{ 
+    display: flex;
+    
+
+}
+
+.goat_image{
+    width: 70%;
+    height: auto;
+    padding-left: 50px;
+    
+}
+
+.goat_flex_item{
+    
+    width: calc(100%/2);
+    height: 50vh;
+    background-color: #7a97ba;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    
+}
+
+/*-------------chicken--------------*/
+
+#chicken_flex{ 
+    display: flex;
+    
+
+}
+
+.chicken_image{
+    width: 70%;
+    height: auto;
+    padding-left: 50px;
+    
+}
+
+.chicken_flex_item{
+    
+    width: calc(100%/2);
+    height: 50vh;
+    background-color: #c5e473;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    
+}
+
+/*-------------llama--------------*/
+
+#llama_flex{ 
+    display: flex;
+    
+
+}
+
+.llama_image{
+    width: 70%;
+    height: auto;
+    padding-left: 50px;
+    
+}
+
+.llama_flex_item{
+    
+    width: calc(100%/2);
+    height: 50vh;
+    background-color: #78a093;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    
+}
+
+/*-------------rabbit--------------*/
+
+#rabbit_flex{ 
+    display: flex;
+    
+
+}
+
+.rabbit_image{
+    width: 70%;
+    height: auto;
+    padding-left: 50px;
+    
+}
+
+.rabbit_flex_item{
+    
+    width: calc(100%/2);
+    height: 50vh;
+    background-color: #f2b175;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    
+}
+
+/*-------------bull--------------*/
+
+#bull_flex{ 
+    display: flex;
+    
+
+}
+
+.bull_image{
+    width: 70%;
+    height: auto;
+    padding-left: 50px;
+    
+}
+
+.bull_flex_item{
+    
+    width: calc(100%/2);
+    height: 50vh;
+    background-color: #9ad9e0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    
+}
+
+/*-------------horse--------------*/
+
+#horse_flex{ 
+    display: flex;
+    
+
+}
+
+.horse_image{
+    width: 70%;
+    height: auto;
+    padding-left: 50px;
+    
+}
+
+.horse_flex_item{
+    
+    width: calc(100%/2);
+    height: 50vh;
+    background-color: #f18787;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    
+}
+
+/*-------------peacock--------------*/
+
+#peacock_flex{ 
+    display: flex;
+    
+
+}
+
+.peacock_image{
+    width: 70%;
+    height: auto;
+    padding-left: 50px;
+    
+}
+
+.peacock_flex_item{
+    
+    width: calc(100%/2);
+    height: 50vh;
+    background-color: #efef79;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    
+}
+
+/*-------------duck--------------*/
+
+#duck_flex{ 
+    display: flex;
+    
+
+}
+
+.duck_image{
+    width: 70%;
+    height: auto;
+    padding-left: 50px;
+    
+}
+
+.duck_flex_item{
+    
+    width: calc(100%/2);
+    height: 50vh;
+    background-color: #d0a3cf;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    
+}
+    
+     #download{
+        
+        
+      
+        padding-bottom: 20px;
+        padding-top: 10px;
+        width: 100%;
+        height: auto;
+        
+    }
+    
+    #download p{
+    font-family: 'Shadows Into Light', cursive;
+    color: pink;
+    font-size: 25px;
+    padding-top: 10px;
+    padding-right: 50px;
+    padding-left: 160px; 
+    padding-bottom: 20px;    
+    line-height: 20px; 
+}
+   
+    
+    .download_buttons{
+        width: 140px;
+        height: auto;
+        display: inline;
+       
+    }
+    
+
+
+.six{
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
+.seven{
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+}
+
+
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+
+header{
+    
+    width: 100%;
+    position: relative;
+    
+    
+    
+}
+
+main{
+    margin-top: 420px;
+    
+}
+
+
+.cover_image{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    z-index: -1;
+}
+
+.bull{
+    width: 150px;
+    height: auto;
+    position: absolute;
+    left: 700px;
+    top: 230px;
+    
+}
+ 
+.bull:hover{
+    -webkit-transform:scale(1.3);
+    -ms-transfrom:scale(1.3);
+    transform: scale(1.3);
+}
+
+
+.sheep{
+    width: 150px;
+    height: auto;
+    position: absolute;
+    left: 20px;
+    top: 330px;
+    
+}
+
+.sheep:hover{
+    -webkit-transform:scale(1.3);
+    -ms-transfrom:scale(1.3);
+    transform: scale(1.3);
+}
+
+.duck{
+    width: 100px;
+    height: auto;
+    position: absolute;
+    left: 850px;
+    top: 460px;
+    
+}
+
+.duck:hover{
+    -webkit-transform:scale(1.3);
+    -ms-transfrom:scale(1.3);
+    transform: scale(1.3);
+}
+
+.pig{
+    width: 150px;
+    height: auto;
+    position: absolute;
+    left: 200px;
+    top: 280px;
+    
+}
+
+.pig:hover{
+    -webkit-transform:scale(1.3);
+    -ms-transfrom:scale(1.3);
+    transform: scale(1.3);
+}
+
+.peacock{
+    width: 150px;
+    height: auto;
+    position: absolute;
+    left: 740px;
+    top: 370px;
+    
+}
+
+.peacock:hover{
+    -webkit-transform:scale(1.3);
+    -ms-transfrom:scale(1.3);
+    transform: scale(1.3);
+}
+
+
+.chicken{
+    width: 100px;
+    height: auto;
+    position: absolute;
+    left: 300px;
+    top: 180px;
+    
+}
+
+.chicken:hover{
+    -webkit-transform:scale(1.3);
+    -ms-transfrom:scale(1.3);
+    transform: scale(1.3);
+}
+
+.dog{
+    width: 140px;
+    height: auto;
+    position: absolute;
+    left: 180px;
+    top: 430px;
+    
+}
+
+.dog:hover{
+    -webkit-transform:scale(1.3);
+    -ms-transfrom:scale(1.3);
+    transform: scale(1.3);
+}
+
+.rabbit{
+    width: 150px;
+    height: auto;
+    position: absolute;
+    left: 550px;
+    top: 250px;
+    
+}
+
+.rabbit:hover{
+    -webkit-transform:scale(1.3);
+    -ms-transfrom:scale(1.3);
+    transform: scale(1.3);
+}
+
+.cat{
+    width: 150px;
+    height: auto;
+    position: absolute;
+    left: 350px;
+    top: 420px;
+    
+}
+
+.cat:hover{
+    -webkit-transform:scale(1.3);
+    -ms-transfrom:scale(1.3);
+    transform: scale(1.3);
+}
+
+.llama{
+    width: 200px;
+    height: auto;
+    position: absolute;
+    left: 450px;
+    top: 380px;
+    
+}
+
+.llama:hover{
+    -webkit-transform:scale(1.3);
+    -ms-transfrom:scale(1.3);
+    transform: scale(1.3);
+}
+
+
+.goat{
+    width: 170px;
+    height: auto;
+    position: absolute;
+    left: 370px;
+    top: 250px;
+    
+}
+
+.goat:hover{
+    -webkit-transform:scale(1.3);
+    -ms-transfrom:scale(1.3);
+    transform: scale(1.3);
+}
+
+.horse{
+    width: 170px;
+    height: auto;
+    position: absolute;
+    left: 600px;
+    top: 400px;
+    
+}
+
+.horse:hover{
+    -webkit-transform:scale(1.3);
+    -ms-transfrom:scale(1.3);
+    transform: scale(1.3);
+}
+
+.top {
+    width: 40px;
+    height: auto;
+    left: 93%;
+    top: 90%;
+    position: fixed;
+}
+
+
+h1{
+    font-family: 'Shadows Into Light', cursive;
+    color: #444444;
+    font-size: 110px;
+    padding-top: 50px;
+    padding-left: 320px;
+}
+
+h2{
+    font-family: 'Gudea', sans-serif;    color: #444444;
+    font-size: 30px;
+    padding-top: 10px;
+}
+
+main{
+    
+    max-height: 70vh;
+    width:100%
+        
+        
+}
+
+h3{
+    font-family: 'Vidaloka', serif;
+    color: #444444;
+    font-size: 35px;
+    padding-top: 20px;
+}
+
+p{
+    font-family: 'Gudea', sans-serif;
+    color: #444444;
+    font-size: 20px;
+    padding-top: 15px;
+    text-align: left;
+    padding-right: 20px;
+    line-height: 25px;
+    
+    
+}
+
+.flex{ 
+    display: flex;
+    
+
+}
+
+
+.flex_item{
+    
+    width: calc(100%/5);
+    height: 70vh;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.img{
+    width: 100%;
+    height: 70vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+}
+
+/*-------------sheep--------------*/
+#sheep_flex{ 
+    display: flex;
+    
+
+}
+
+.sheep_image{
+    width: 70%;
+    height: auto;
+    padding-left: 80px;
+    
+}
+
+.sheep_flex_item{
+    
+    width: calc(100%/2);
+    height: 70vh;
+    background-color: #f088b6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    
+}
+
+/*-------------dog--------------*/
+
+#dog_flex{ 
+    display: flex;
+    
+
+}
+
+.dog_image{
+    width: 70%;
+    height: auto;
+    padding-left: 80px;
+    
+}
+
+.dog_flex_item{
+    
+    width: calc(100%/2);
+    height: 70vh;
+    background-color: #d0a3cf;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    
+}
+
+/*-------------pig--------------*/
+
+#pig_flex{ 
+    display: flex;
+    
+
+}
+
+.pig_image{
+    width: 70%;
+    height: auto;
+    padding-left: 80px;
+    
+}
+
+.pig_flex_item{
+    
+    width: calc(100%/2);
+    height: 70vh;
+    background-color: #7dcedb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    
+}
+
+/*-------------Cat--------------*/
+
+#cat_flex{ 
+    display: flex;
+    
+
+}
+
+.cat_image{
+    width: 70%;
+    height: auto;
+    padding-left: 80px;
+    
+}
+
+.cat_flex_item{
+    
+    width: calc(100%/2);
+    height: 70vh;
+    background-color: #92d297;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    
+}
+
+/*-------------goat--------------*/
+
+#goat_flex{ 
+    display: flex;
+    
+
+}
+
+.goat_image{
+    width: 70%;
+    height: auto;
+    padding-left: 80px;
+    
+}
+
+.goat_flex_item{
+    
+    width: calc(100%/2);
+    height: 70vh;
+    background-color: #7a97ba;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    
+}
+
+/*-------------chicken--------------*/
+
+#chicken_flex{ 
+    display: flex;
+    
+
+}
+
+.chicken_image{
+    width: 70%;
+    height: auto;
+    padding-left: 80px;
+    
+}
+
+.chicken_flex_item{
+    
+    width: calc(100%/2);
+    height: 70vh;
+    background-color: #c5e473;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    
+}
+
+/*-------------llama--------------*/
+
+#llama_flex{ 
+    display: flex;
+    
+
+}
+
+.llama_image{
+    width: 70%;
+    height: auto;
+    padding-left: 80px;
+    
+}
+
+.llama_flex_item{
+    
+    width: calc(100%/2);
+    height: 70vh;
+    background-color: #78a093;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    
+}
+
+/*-------------rabbit--------------*/
+
+#rabbit_flex{ 
+    display: flex;
+    
+
+}
+
+.rabbit_image{
+    width: 70%;
+    height: auto;
+    padding-left: 80px;
+    
+}
+
+.rabbit_flex_item{
+    
+    width: calc(100%/2);
+    height: 70vh;
+    background-color: #f2b175;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    
+}
+
+/*-------------bull--------------*/
+
+#bull_flex{ 
+    display: flex;
+    
+
+}
+
+.bull_image{
+    width: 70%;
+    height: auto;
+    padding-left: 80px;
+    
+}
+
+.bull_flex_item{
+    
+    width: calc(100%/2);
+    height: 70vh;
+    background-color: #9ad9e0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    
+}
+
+/*-------------horse--------------*/
+
+#horse_flex{ 
+    display: flex;
+    
+
+}
+
+.horse_image{
+    width: 70%;
+    height: auto;
+    padding-left: 80px;
+    
+}
+
+.horse_flex_item{
+    
+    width: calc(100%/2);
+    height: 70vh;
+    background-color: #f18787;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    
+}
+
+/*-------------peacock--------------*/
+
+#peacock_flex{ 
+    display: flex;
+    
+
+}
+
+.peacock_image{
+    width: 70%;
+    height: auto;
+    padding-left: 80px;
+    
+}
+
+.peacock_flex_item{
+    
+    width: calc(100%/2);
+    height: 70vh;
+    background-color: #efef79;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    
+}
+
+/*-------------duck--------------*/
+
+#duck_flex{ 
+    display: flex;
+    
+
+}
+
+.duck_image{
+    width: 70%;
+    height: auto;
+    padding-left: 80px;
+    
+}
+
+.duck_flex_item{
+    
+    width: calc(100%/2);
+    height: 70vh;
+    background-color: #d0a3cf;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    
+}
+    
+  #download{
+        padding-bottom: 20px;
+        padding-top: 10px;
+        width: 100%;
+        height: auto;
+        
+    }
+    
+    #download p{
+    font-family: 'Shadows Into Light', cursive;
+    color: #444444;
+    font-size: 40px;
+    padding-top: 20px;
+    padding-right: 100px;
+    padding-left: 250px; 
+    padding-bottom: 30px;    
+    line-height: 20px; 
+}
+   
+    
+    .download_buttons{
+        width: 190px;
+        height: auto;
+        display: inline;
+        padding-left: 30px;
+       
+    }
+    
+
+.six{
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
+.seven{
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {
+
+    header{
+    
+    width: 100%;
+    position: relative;
+    
+    
+    
+}
+
+main{
+    margin-top: 630px;
+    
+}
+
+
+.cover_image{
+    width: 100%;
+    height: 850px;
+    position: absolute;
+    z-index: -1;
+}
+
+.bull{
+    width: 200px;
+    height: auto;
+    position: absolute;
+    left: 1000px;
+    top: 300px;
+    
+}
+ 
+.bull:hover{
+    -webkit-transform:scale(1.3);
+    -ms-transfrom:scale(1.3);
+    transform: scale(1.3);
+}
+
+
+.sheep{
+    width: 200px;
+    height: auto;
+    position: absolute;
+    left: 50px;
+    top: 500px;
+    
+}
+
+.sheep:hover{
+    -webkit-transform:scale(1.3);
+    -ms-transfrom:scale(1.3);
+    transform: scale(1.3);
+}
+
+.duck{
+    width: 150px;
+    height: auto;
+    position: absolute;
+    left: 1280px;
+    top: 650px;
+    
+}
+
+.duck:hover{
+    -webkit-transform:scale(1.3);
+    -ms-transfrom:scale(1.3);
+    transform: scale(1.3);
+}
+
+.pig{
+    width: 200px;
+    height: auto;
+    position: absolute;
+    left: 300px;
+    top: 430px;
+    
+}
+
+.pig:hover{
+    -webkit-transform:scale(1.3);
+    -ms-transfrom:scale(1.3);
+    transform: scale(1.3);
+}
+
+.peacock{
+    width: 200px;
+    height: auto;
+    position: absolute;
+    left: 1120px;
+    top: 530px;
+    
+}
+
+.peacock:hover{
+    -webkit-transform:scale(1.3);
+    -ms-transfrom:scale(1.3);
+    transform: scale(1.3);
+}
+
+
+.chicken{
+    width: 120px;
+    height: auto;
+    position: absolute;
+    left: 450px;
+    top: 280px;
+    
+}
+
+.chicken:hover{
+    -webkit-transform:scale(1.3);
+    -ms-transfrom:scale(1.3);
+    transform: scale(1.3);
+}
+
+.dog{
+    width: 180px;
+    height: auto;
+    position: absolute;
+    left: 250px;
+    top: 650px;
+    
+}
+
+.dog:hover{
+    -webkit-transform:scale(1.3);
+    -ms-transfrom:scale(1.3);
+    transform: scale(1.3);
+}
+
+.rabbit{
+    width: 200px;
+    height: auto;
+    position: absolute;
+    left: 780px;
+    top: 350px;
+    
+}
+
+.rabbit:hover{
+    -webkit-transform:scale(1.3);
+    -ms-transfrom:scale(1.3);
+    transform: scale(1.3);
+}
+
+.cat{
+    width: 180px;
+    height: auto;
+    position: absolute;
+    left: 500px;
+    top: 600px;
+    
+}
+
+.cat:hover{
+    -webkit-transform:scale(1.3);
+    -ms-transfrom:scale(1.3);
+    transform: scale(1.3);
+}
+
+.llama{
+    width: 280px;
+    height: auto;
+    position: absolute;
+    left: 650px;
+    top: 530px;
+    
+}
+
+.llama:hover{
+    -webkit-transform:scale(1.3);
+    -ms-transfrom:scale(1.3);
+    transform: scale(1.3);
+}
+
+
+.goat{
+    width: 230px;
+    height: auto;
+    position: absolute;
+    left: 550px;
+    top: 360px;
+    
+}
+
+.goat:hover{
+    -webkit-transform:scale(1.3);
+    -ms-transfrom:scale(1.3);
+    transform: scale(1.3);
+}
+
+.horse{
+    width: 230px;
+    height: auto;
+    position: absolute;
+    left: 900px;
+    top: 550px;
+    
+}
+
+.horse:hover{
+    -webkit-transform:scale(1.3);
+    -ms-transfrom:scale(1.3);
+    transform: scale(1.3);
+}
+
+.top {
+    width: 50px;
+    height: auto;
+    left: 95%;
+    top: 90%;
+    position: fixed;
+}
+
+
+h1{
+    font-family: 'Shadows Into Light', cursive;
+
+    color: #444444;
+    font-size: 170px;
+    padding-top: 50px;
+    padding-left: 450px;
+}
+
+h2{
+    font-family: 'Gudea', sans-serif;    color: #444444;
+    font-size: 30px;
+    padding-top: 10px;
+}
+
+main{
+    
+    max-height: 70vh;
+    width:100%
+        
+        
+}
+
+h3{
+    font-family: 'Vidaloka', serif;
+    color: #444444;
+    font-size: 35px;
+    padding-top: 20px;
+}
+
+p{
+    font-family: 'Gudea', sans-serif;
+    color: #444444;
+    font-size: 25px;
+    padding-top: 20px;
+    text-align: left;
+    padding-right: 20px;
+    line-height: 30px;
+    
+    
+}
+
+.flex{ 
+    display: flex;
+    
+
+}
+
+
+.flex_item{
+    
+    width: calc(100%/5);
+    height: 70vh;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.img{
+    width: 100%;
+    height: 70vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+}
+
+/*-------------sheep--------------*/
+#sheep_flex{ 
+    display: flex;
+    
+
+}
+
+.sheep_image{
+    width: 70%;
+    height: auto;
+    padding-left: 120px;
+    
+}
+
+.sheep_flex_item{
+    
+    width: calc(100%/2);
+    height: 70vh;
+    background-color: #f088b6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    
+}
+
+/*-------------dog--------------*/
+
+#dog_flex{ 
+    display: flex;
+    
+
+}
+
+.dog_image{
+    width: 70%;
+    height: auto;
+    padding-left: 120px;
+    
+}
+
+.dog_flex_item{
+    
+    width: calc(100%/2);
+    height: 70vh;
+    background-color: #d0a3cf;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    
+}
+
+/*-------------pig--------------*/
+
+#pig_flex{ 
+    display: flex;
+    
+
+}
+
+.pig_image{
+    width: 70%;
+    height: auto;
+    padding-left: 120px;
+    
+}
+
+.pig_flex_item{
+    
+    width: calc(100%/2);
+    height: 70vh;
+    background-color: #7dcedb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    
+}
+
+/*-------------Cat--------------*/
+
+#cat_flex{ 
+    display: flex;
+    
+
+}
+
+.cat_image{
+    width: 70%;
+    height: auto;
+    padding-left: 120px;
+    
+}
+
+.cat_flex_item{
+    
+    width: calc(100%/2);
+    height: 70vh;
+    background-color: #92d297;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    
+}
+
+/*-------------goat--------------*/
+
+#goat_flex{ 
+    display: flex;
+    
+
+}
+
+.goat_image{
+    width: 70%;
+    height: auto;
+    padding-left: 120px;
+    
+}
+
+.goat_flex_item{
+    
+    width: calc(100%/2);
+    height: 70vh;
+    background-color: #7a97ba;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    
+}
+
+/*-------------chicken--------------*/
+
+#chicken_flex{ 
+    display: flex;
+    
+
+}
+
+.chicken_image{
+    width: 70%;
+    height: auto;
+    padding-left: 120px;
+    
+}
+
+.chicken_flex_item{
+    
+    width: calc(100%/2);
+    height: 70vh;
+    background-color: #c5e473;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    
+}
+
+/*-------------llama--------------*/
+
+#llama_flex{ 
+    display: flex;
+    
+
+}
+
+.llama_image{
+    width: 70%;
+    height: auto;
+    padding-left: 120px;
+    
+}
+
+.llama_flex_item{
+    
+    width: calc(100%/2);
+    height: 70vh;
+    background-color: #78a093;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    
+}
+
+/*-------------rabbit--------------*/
+
+#rabbit_flex{ 
+    display: flex;
+    
+
+}
+
+.rabbit_image{
+    width: 70%;
+    height: auto;
+    padding-left: 120px;
+    
+}
+
+.rabbit_flex_item{
+    
+    width: calc(100%/2);
+    height: 70vh;
+    background-color: #f2b175;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    
+}
+
+/*-------------bull--------------*/
+
+#bull_flex{ 
+    display: flex;
+    
+
+}
+
+.bull_image{
+    width: 70%;
+    height: auto;
+    padding-left: 120px;
+    
+}
+
+.bull_flex_item{
+    
+    width: calc(100%/2);
+    height: 70vh;
+    background-color: #9ad9e0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    
+}
+
+/*-------------horse--------------*/
+
+#horse_flex{ 
+    display: flex;
+    
+
+}
+
+.horse_image{
+    width: 70%;
+    height: auto;
+    padding-left: 120px;
+    
+}
+
+.horse_flex_item{
+    
+    width: calc(100%/2);
+    height: 70vh;
+    background-color: #f18787;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    
+}
+
+/*-------------peacock--------------*/
+
+#peacock_flex{ 
+    display: flex;
+    
+
+}
+
+.peacock_image{
+    width: 70%;
+    height: auto;
+    padding-left: 120px;
+    
+}
+
+.peacock_flex_item{
+    
+    width: calc(100%/2);
+    height: 70vh;
+    background-color: #efef79;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    
+}
+
+/*-------------duck--------------*/
+
+#duck_flex{ 
+    display: flex;
+    
+
+}
+
+.duck_image{
+    width: 70%;
+    height: auto;
+    padding-left: 120px;
+    
+}
+
+.duck_flex_item{
+    
+    width: calc(100%/2);
+    height: 70vh;
+    background-color: #d0a3cf;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    
+}
+
+       #download{
+        padding-bottom: 20px;
+        padding-top: 10px;
+        width: 100%;
+        height: auto;
+        
+    }
+    
+    #download p{
+    font-family: 'Shadows Into Light', cursive;
+    color: #444444;
+    font-size: 40px;
+    padding-top: 20px;
+    padding-right: 100px;
+    padding-left: 360px; 
+    padding-bottom: 30px;    
+    line-height: 20px; 
+}
+   
+    
+    .download_buttons{
+        width: 200px;
+        height: auto;
+        display: inline;
+        padding-left: 70px;
+       
+    }
+
+.six{
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
+.seven{
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+}
+
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {
+    
+    
+header{
+    
+    width: 100%;
+    position: relative;
+}
+
+main{
+    margin-top: 630px;
+    
+}
+
+
+.cover_image{
+    width: 100%;
+    height: 850px;
+    position: absolute;
+    z-index: -1;
+}
+
+.bull{
+    width: 200px;
+    height: auto;
+    position: absolute;
+    left: 1000px;
+    top: 300px;
+    
+}
+ 
+.bull:hover{
+    -webkit-transform:scale(1.3);
+    -ms-transfrom:scale(1.3);
+    transform: scale(1.3);
+}
+
+
+.sheep{
+    width: 200px;
+    height: auto;
+    position: absolute;
+    left: 50px;
+    top: 500px;
+    
+}
+
+.sheep:hover{
+    -webkit-transform:scale(1.3);
+    -ms-transfrom:scale(1.3);
+    transform: scale(1.3);
+}
+
+.duck{
+    width: 150px;
+    height: auto;
+    position: absolute;
+    left: 1280px;
+    top: 650px;
+    
+}
+
+.duck:hover{
+    -webkit-transform:scale(1.3);
+    -ms-transfrom:scale(1.3);
+    transform: scale(1.3);
+}
+
+.pig{
+    width: 200px;
+    height: auto;
+    position: absolute;
+    left: 300px;
+    top: 430px;
+    
+}
+
+.pig:hover{
+    -webkit-transform:scale(1.3);
+    -ms-transfrom:scale(1.3);
+    transform: scale(1.3);
+}
+
+.peacock{
+    width: 200px;
+    height: auto;
+    position: absolute;
+    left: 1120px;
+    top: 530px;
+    
+}
+
+.peacock:hover{
+    -webkit-transform:scale(1.3);
+    -ms-transfrom:scale(1.3);
+    transform: scale(1.3);
+}
+
+
+.chicken{
+    width: 120px;
+    height: auto;
+    position: absolute;
+    left: 450px;
+    top: 280px;
+    
+}
+
+.chicken:hover{
+    -webkit-transform:scale(1.3);
+    -ms-transfrom:scale(1.3);
+    transform: scale(1.3);
+}
+
+.dog{
+    width: 180px;
+    height: auto;
+    position: absolute;
+    left: 250px;
+    top: 650px;
+    
+}
+
+.dog:hover{
+    -webkit-transform:scale(1.3);
+    -ms-transfrom:scale(1.3);
+    transform: scale(1.3);
+}
+
+.rabbit{
+    width: 200px;
+    height: auto;
+    position: absolute;
+    left: 780px;
+    top: 350px;
+    
+}
+
+.rabbit:hover{
+    -webkit-transform:scale(1.3);
+    -ms-transfrom:scale(1.3);
+    transform: scale(1.3);
+}
+
+.cat{
+    width: 180px;
+    height: auto;
+    position: absolute;
+    left: 500px;
+    top: 600px;
+    
+}
+
+.cat:hover{
+    -webkit-transform:scale(1.3);
+    -ms-transfrom:scale(1.3);
+    transform: scale(1.3);
+}
+
+.llama{
+    width: 280px;
+    height: auto;
+    position: absolute;
+    left: 650px;
+    top: 530px;
+    
+}
+
+.llama:hover{
+    -webkit-transform:scale(1.3);
+    -ms-transfrom:scale(1.3);
+    transform: scale(1.3);
+}
+
+
+.goat{
+    width: 230px;
+    height: auto;
+    position: absolute;
+    left: 550px;
+    top: 360px;
+    
+}
+
+.goat:hover{
+    -webkit-transform:scale(1.3);
+    -ms-transfrom:scale(1.3);
+    transform: scale(1.3);
+}
+
+.horse{
+    width: 230px;
+    height: auto;
+    position: absolute;
+    left: 900px;
+    top: 550px;
+    
+}
+
+.horse:hover{
+    -webkit-transform:scale(1.3);
+    -ms-transfrom:scale(1.3);
+    transform: scale(1.3);
+}
+
+.top {
+    width: 50px;
+    height: auto;
+    left: 95%;
+    top: 90%;
+    position: fixed;
+}
+
+
+h1{
+    font-family: 'Shadows Into Light', cursive;
+
+    color: #444444;
+    font-size: 170px;
+    padding-top: 50px;
+    padding-left: 450px;
+}
+
+h2{
+    font-family: 'Gudea', sans-serif;    color: #444444;
+    font-size: 30px;
+    padding-top: 10px;
+}
+
+main{
+    
+    max-height: 70vh;
+    width:100%
+        
+        
+}
+
+h3{
+    font-family: 'Vidaloka', serif;
+    color: #444444;
+    font-size: 35px;
+    padding-top: 20px;
+}
+
+p{
+    font-family: 'Gudea', sans-serif;
+    color: #444444;
+    font-size: 25px;
+    padding-top: 20px;
+    text-align: left;
+    padding-right: 20px;
+    line-height: 30px;
+    
+    
+}
+
+.flex{ 
+    display: flex;
+    
+
+}
+
+
+.flex_item{
+    
+    width: calc(100%/5);
+    height: 70vh;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.img{
+    width: 100%;
+    height: 70vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+}
+
+/*-------------sheep--------------*/
+#sheep_flex{ 
+    display: flex;
+    
+
+}
+
+.sheep_image{
+    width: 70%;
+    height: auto;
+    padding-left: 120px;
+    
+}
+
+.sheep_flex_item{
+    
+    width: calc(100%/2);
+    height: 70vh;
+    background-color: #f088b6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    
+}
+
+/*-------------dog--------------*/
+
+#dog_flex{ 
+    display: flex;
+    
+
+}
+
+.dog_image{
+    width: 70%;
+    height: auto;
+    padding-left: 120px;
+    
+}
+
+.dog_flex_item{
+    
+    width: calc(100%/2);
+    height: 70vh;
+    background-color: #d0a3cf;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    
+}
+
+/*-------------pig--------------*/
+
+#pig_flex{ 
+    display: flex;
+    
+
+}
+
+.pig_image{
+    width: 70%;
+    height: auto;
+    padding-left: 120px;
+    
+}
+
+.pig_flex_item{
+    
+    width: calc(100%/2);
+    height: 70vh;
+    background-color: #7dcedb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    
+}
+
+/*-------------Cat--------------*/
+
+#cat_flex{ 
+    display: flex;
+    
+
+}
+
+.cat_image{
+    width: 70%;
+    height: auto;
+    padding-left: 120px;
+    
+}
+
+.cat_flex_item{
+    
+    width: calc(100%/2);
+    height: 70vh;
+    background-color: #92d297;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    
+}
+
+/*-------------goat--------------*/
+
+#goat_flex{ 
+    display: flex;
+    
+
+}
+
+.goat_image{
+    width: 70%;
+    height: auto;
+    padding-left: 120px;
+    
+}
+
+.goat_flex_item{
+    
+    width: calc(100%/2);
+    height: 70vh;
+    background-color: #7a97ba;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    
+}
+
+/*-------------chicken--------------*/
+
+#chicken_flex{ 
+    display: flex;
+    
+
+}
+
+.chicken_image{
+    width: 70%;
+    height: auto;
+    padding-left: 120px;
+    
+}
+
+.chicken_flex_item{
+    
+    width: calc(100%/2);
+    height: 70vh;
+    background-color: #c5e473;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    
+}
+
+/*-------------llama--------------*/
+
+#llama_flex{ 
+    display: flex;
+    
+
+}
+
+.llama_image{
+    width: 70%;
+    height: auto;
+    padding-left: 120px;
+    
+}
+
+.llama_flex_item{
+    
+    width: calc(100%/2);
+    height: 70vh;
+    background-color: #78a093;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    
+}
+
+/*-------------rabbit--------------*/
+
+#rabbit_flex{ 
+    display: flex;
+    
+
+}
+
+.rabbit_image{
+    width: 70%;
+    height: auto;
+    padding-left: 120px;
+    
+}
+
+.rabbit_flex_item{
+    
+    width: calc(100%/2);
+    height: 70vh;
+    background-color: #f2b175;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    
+}
+
+/*-------------bull--------------*/
+
+#bull_flex{ 
+    display: flex;
+    
+
+}
+
+.bull_image{
+    width: 70%;
+    height: auto;
+    padding-left: 120px;
+    
+}
+
+.bull_flex_item{
+    
+    width: calc(100%/2);
+    height: 70vh;
+    background-color: #9ad9e0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    
+}
+
+/*-------------horse--------------*/
+
+#horse_flex{ 
+    display: flex;
+    
+
+}
+
+.horse_image{
+    width: 70%;
+    height: auto;
+    padding-left: 120px;
+    
+}
+
+.horse_flex_item{
+    
+    width: calc(100%/2);
+    height: 70vh;
+    background-color: #f18787;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    
+}
+
+/*-------------peacock--------------*/
+
+#peacock_flex{ 
+    display: flex;
+    
+
+}
+
+.peacock_image{
+    width: 70%;
+    height: auto;
+    padding-left: 120px;
+    
+}
+
+.peacock_flex_item{
+    
+    width: calc(100%/2);
+    height: 70vh;
+    background-color: #efef79;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    
+}
+
+/*-------------duck--------------*/
+
+#duck_flex{ 
+    display: flex;
+    
+
+}
+
+.duck_image{
+    width: 70%;
+    height: auto;
+    padding-left: 120px;
+    
+}
+
+.duck_flex_item{
+    
+    width: calc(100%/2);
+    height: 70vh;
+    background-color: #d0a3cf;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    
+}
+    
+    #download{
+        padding-bottom: 40px;
+        padding-top: 20px;
+       
+    }
+    
+    #download p{
+    font-family: 'Shadows Into Light', cursive;
+    color: #444444;
+    font-size: 40px;
+    padding-top: 20px;
+    padding-left: 500px; 
+    padding-bottom: 30px;    
+    line-height: 30px;
+    
+    
+}
+
+    
+    .download_buttons{
+        width: 230px;
+        height: auto;
+        display: inline;
+        padding-left: 90px;
+       
+    }
+
+.six{
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
+.seven{
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+}
+    
+    
+    
+    
